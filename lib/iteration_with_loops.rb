@@ -6,7 +6,6 @@ min_temperature = []
 row_index = 0 
 while row_index < src.count do 
   min_temperature << src[row_index].min
-  binding.pry
   row_index += 1 
 end 
 min_temperature
